@@ -9,7 +9,7 @@
 body {
     display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 3rem;
+    margin-top: 3.3rem;
 }
 
 .navbar{
@@ -39,9 +39,8 @@ body {
     height: 60px;
 }
 
-.flex-container2 {
+.container2 {
     position: relative;
-    text-align: center;
     color: aliceblue;
 }
 
@@ -56,6 +55,7 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
 .logo1 {
     display: flex;
     font-size: 2rem;
@@ -65,10 +65,26 @@ body {
 
 .top-left {
     position: absolute;
-    top: 15rem;
-    left: 3rem;
     font-size: 4rem;
     letter-spacing: .2rem;
+    top: 10rem;
+    left: -40rem;
 }
 
+.bottom-right {
+    position: absolute;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    right: 10rem;
+    top: 75rem;
 
+}
+
+body section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer {
+    background-color: #bf7631;
+}
